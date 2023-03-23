@@ -1,0 +1,24 @@
+
+    <table style="margin: 20px; padding: 20px;">
+        <thead>
+            <tr>
+                <th style="margin: 20px; padding: 20px;">First Name</th>
+                <th style="margin: 20px; padding: 20px;">Last Name</th>
+                <th style="margin: 20px; padding: 20px;">Position</th>
+                <th style="margin: 20px; padding: 20px;">City</th>
+                <th style="margin: 20px; padding: 20px;">Conference</th>
+                <th style="margin: 20px; padding: 20px;">Division</th>
+            </tr>
+            <tr *ngFor="let post of dataPost.data">
+                <td style="margin: 20px; padding: 20px;">{{post.first_name}}</td>
+                <td style="margin: 20px; padding: 20px;">{{post.last_name}}</td>
+                <td style="margin: 20px; padding: 20px;">{{post.position}}</td>
+                <td style="margin: 20px; padding: 20px;">{{post.team.city}}</td>
+                <td style="margin: 20px; padding: 20px;">{{post.team.conference}}</td>
+                <td style="margin: 20px; padding: 20px;">{{post.team.division}}</td>
+            </tr>
+        </thead>
+    </table>
+
+
+<button type="submit" style="margin: 20px; padding: 20px;">Submit</button>

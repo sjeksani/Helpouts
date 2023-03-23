@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "aws-deploy": "aws s3 sync dist/practice/ s3://sjeksanibucket"
   },
   "private": true,
   "dependencies": {
@@ -18,6 +19,8 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
+    "angular-material": "^1.2.5",
+    "redux": "^4.2.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

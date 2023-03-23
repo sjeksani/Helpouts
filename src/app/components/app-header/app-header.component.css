@@ -1,0 +1,50 @@
+
+  /* Start here */
+  #main{
+    display: flex;
+    /* align-content: space-around; */
+    background: #4285F4;
+  }
+
+  .social-list {
+    list-style: none;
+  }
+
+  .header-list{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 13px;
+  }
+
+  li {
+    cursor:pointer;
+  }
+
+  .box {
+    /* border: 2px solid red; */
+    width: 500px;
+    height: 75px;
+    color:cornsilk;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+  }
+
+  .box1{
+    min-height: 75px;
+    /* center a div vertically */
+    display: flex;
+    align-items: center; 
+
+    /* center a div both horizontally and vertically */
+    /* display: flex;
+    justify-content: center; */
+  }
+
+  .box2{
+    min-height: 75px;
+  }
+
+
+
