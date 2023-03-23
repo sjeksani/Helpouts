@@ -1,3 +1,17 @@
 <div>
-    <p>Search Box</p>
+    <div class="coveo-search-inner">
+        <div class="coveo-input-flex">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" />
+                <span class="input-group-btn">
+                    <button type="button" *ngIf="" class="btn coveo-close">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                    </button>
+                    <button type="submit" title="Search" class="btn coveo-search-icon coveo-search-icon-search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </div>
+    </div>
 </div>

@@ -2,3 +2,7 @@
 .text {
     margin: 20px; padding: 20px;
 }
+
+.home-body {
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/https://d1e00ek4ebabms.cloudfront.net/production/8ae06d57-6741-4add-be86-5f6568c501f9.jpg?source=next&fit=scale-down&quality=highest&width=1067");
+}
