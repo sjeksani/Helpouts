@@ -1,5 +1,6 @@
 
   /* Start here */
+ 
   #main{
     display: flex;
     /* align-content: space-around; */
@@ -18,21 +19,20 @@
   }
 
   .box {
-    /* border: 2px solid red; */
-    width: 500px;
-    height: 50px;
+    height: 60px;
     color:cornsilk;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 15px;
     display: flex;
-    font-family: 'Open Sans';
+    font-family: sans-serif;
   }
 
   .box1{
     min-height: 25px;
     /* center a div vertically */
     display: flex;
-    align-items: center; 
+    align-items: center;
+    margin-left: 150px; 
 
     /* center a div both horizontally and vertically */
     /* display: flex;
@@ -42,22 +42,23 @@
   .box2{
     min-height: 50px;
   }
+
   .loginbtn {
     letter-spacing: 1.65px;
     color: #252525;
     font-size: 15px;
     border: none;
-    margin: 10px;
+    margin: 15px 50px 15px 400px;
     cursor: pointer;
     width: 103px;
     height: 30px;
     border-radius: 23px;
-    font-weight: 500;
+    font-weight: 700;
     background: #fff;
   }
 
-   .fas {
-    margin-right: 10px;
+   .fas .fa-user{
+    margin: 10px !important;
     color: #004a7c;
    }
 
