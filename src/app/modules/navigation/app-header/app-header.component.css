@@ -57,8 +57,12 @@
     background: #fff;
   }
 
-   .fas .fa-user{
-    margin: 10px !important;
+   .fas, .far{
+    margin-right: 7px;
     color: #004a7c;
+   }
+
+   .homeicon {
+    color: #fff;
    }
 

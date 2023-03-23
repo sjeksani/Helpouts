@@ -1,0 +1,68 @@
+
+  /* Start here */
+ 
+  #main{
+    display: flex;
+    /* align-content: space-around; */
+    /* background: #004a7c; */
+  }
+
+  .header-list{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 13px;
+  }
+
+  li {
+    cursor:pointer;
+  }
+
+  .box {
+    height: 60px;
+    /* color:cornsilk; */
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    font-family: sans-serif;
+  }
+
+  .box1{
+    min-height: 25px;
+    /* center a div vertically */
+    display: flex;
+    align-items: center;
+    margin-left: 150px; 
+
+    /* center a div both horizontally and vertically */
+    /* display: flex;
+    justify-content: center; */
+  }
+
+  .box2{
+    min-height: 50px;
+  }
+
+  .loginbtn {
+    letter-spacing: 1.65px;
+    /* color: #252525; */
+    font-size: 15px;
+    border: none;
+    margin: 15px 50px 15px 400px;
+    cursor: pointer;
+    width: 103px;
+    height: 30px;
+    border-radius: 23px;
+    font-weight: 700;
+    background: #fff;
+  }
+
+   .fas, .far{
+    margin-right: 7px;
+    color: #004a7c;
+   }
+
+   .homeicon {
+    /* color: #fff; */
+   }
+

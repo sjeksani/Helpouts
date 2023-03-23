@@ -2,20 +2,20 @@
     <table style="margin-left: 175px; padding: 20px;">
         <thead>
             <tr>
-                <th style="margin: 20px; padding: 20px;">First Name</th>
-                <th style="margin: 20px; padding: 20px;">Last Name</th>
-                <th style="margin: 20px; padding: 20px;">Position</th>
-                <th style="margin: 20px; padding: 20px;">City</th>
-                <th style="margin: 20px; padding: 20px;">Conference</th>
-                <th style="margin: 20px; padding: 20px;">Division</th>
+                <th class="text">First Name</th>
+                <th class="text">Last Name</th>
+                <th class="text">Position</th>
+                <th class="text">City</th>
+                <th class="text">Conference</th>
+                <th class="text">Division</th>
             </tr>
             <tr *ngFor="let post of dataPost.data">
-                <td style="margin: 20px; padding: 20px;">{{post.first_name}}</td>
-                <td style="margin: 20px; padding: 20px;">{{post.last_name}}</td>
-                <td style="margin: 20px; padding: 20px;">{{post.position}}</td>
-                <td style="margin: 20px; padding: 20px;">{{post.team.city}}</td>
-                <td style="margin: 20px; padding: 20px;">{{post.team.conference}}</td>
-                <td style="margin: 20px; padding: 20px;">{{post.team.division}}</td>
+                <td class="text">{{post.first_name}}</td>
+                <td class="text">{{post.last_name}}</td>
+                <td class="text">{{post.position}}</td>
+                <td class="text">{{post.team.city}}</td>
+                <td class="text">{{post.team.conference}}</td>
+                <td class="text">{{post.team.division}}</td>
             </tr>
         </thead>
     </table>
