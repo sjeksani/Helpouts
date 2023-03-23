@@ -5,9 +5,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/Home/home.component';
-import {ContactComponent} from './components/Contact/contact.component';
-import { AppHeaderComponent } from './components/app-header/app-header.component';
+import { HomeComponent } from './modules/home/home.component';
+import {ContactComponent} from './modules/contact/contact.component';
+import { AppHeaderComponent } from './modules/app-header/app-header.component';
+import { AboutComponent } from './modules/about/about.component';
 
 // import { StoreModule } from '@ngrx/store';
 
@@ -16,7 +17,8 @@ import { AppHeaderComponent } from './components/app-header/app-header.component
     AppComponent,
     AppHeaderComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

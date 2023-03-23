@@ -3,11 +3,7 @@
   #main{
     display: flex;
     /* align-content: space-around; */
-    background: #4285F4;
-  }
-
-  .social-list {
-    list-style: none;
+    background: #004a7c;
   }
 
   .header-list{
@@ -24,15 +20,16 @@
   .box {
     /* border: 2px solid red; */
     width: 500px;
-    height: 75px;
+    height: 50px;
     color:cornsilk;
-    font-weight: 900;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 16px;
     display: flex;
+    font-family: 'Open Sans';
   }
 
   .box1{
-    min-height: 75px;
+    min-height: 25px;
     /* center a div vertically */
     display: flex;
     align-items: center; 
@@ -43,8 +40,24 @@
   }
 
   .box2{
-    min-height: 75px;
+    min-height: 50px;
+  }
+  .loginbtn {
+    letter-spacing: 1.65px;
+    color: #252525;
+    font-size: 15px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    width: 103px;
+    height: 30px;
+    border-radius: 23px;
+    font-weight: 500;
+    background: #fff;
   }
 
-
+   .fas {
+    margin-right: 10px;
+    color: #004a7c;
+   }
 
